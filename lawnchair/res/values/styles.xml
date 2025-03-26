@@ -23,6 +23,7 @@
         <item name="qsbIconTintSecondary">#ff34a853</item>
         <item name="qsbIconTintTertiary">#fffbbc05</item>
         <item name="searchboxHighlight">@color/surface_variant_light</item>
+        <item name="android:windowShowWallpaper">true</item>
     </style>
     <style name="AppTheme.DarkMainColor" parent="@style/LauncherTheme.DarkMainColor">
         <item name="uiColorMode">4</item>

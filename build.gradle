@@ -255,34 +255,29 @@ android {
     }
 
     // See: https://developer.android.com/studio/build/build-variants#flavor-dimensions
-    flavorDimensions += [ "channel"]
+    flavorDimensions += ["app", "recents", "channel"]
 
     productFlavors {
-//        lawn {
-//            dimension "app"
-//        }
-//
-//        withQuickstep {
-//            dimension "recents"
-//            minSdk 26
-//        }
-//
-//        github {
-//            applicationId 'app.lawnchair'
-//            dimension "channel"
-//        }
-//
-//        nightly {
-//            applicationId 'app.lawnchair.nightly'
-//            dimension "channel"
-//        }
-//
-//        play {
-//            applicationId "app.lawnchair.play"
-//            dimension "channel"
-//            isDefault true
-//        }
-        kidos {
+        lawn {
+            dimension "app"
+        }
+
+        withQuickstep {
+            dimension "recents"
+            minSdk 26
+        }
+
+        github {
+            applicationId 'app.lawnchair'
+            dimension "channel"
+        }
+
+        nightly {
+            applicationId 'app.lawnchair.nightly'
+            dimension "channel"
+        }
+
+        play {
             applicationId "app.lawnchair.play"
             dimension "channel"
             isDefault true
@@ -297,43 +292,42 @@ android {
         main {
             res.srcDirs = ['res']
             java.srcDirs = ['src', 'src_plugins']
-//            manifest.srcFile 'AndroidManifest-common.xml'
-            manifest.srcFile "quickstep/AndroidManifest-launcher.xml"
+            manifest.srcFile 'AndroidManifest-common.xml'
             proto {
                 srcDirs = ['protos/', 'quickstep/protos_overrides/']
             }
         }
 
-//        lawn {
-//            java.srcDirs = ['src_flags', 'src_shortcuts_overrides', 'lawnchair/src', 'tests/shared']
-//            aidl.srcDirs = ['lawnchair/aidl']
-//            res.srcDirs = ['lawnchair/res', 'platform_frameworks_libs_systemui/animationlib/res']
-//            manifest.srcFile "lawnchair/AndroidManifest.xml"
-//            assets {
-//                srcDirs 'lawnchair/assets'
-//            }
-//            proto {
-//                srcDirs = ['lawnchair/protos/']
-//            }
-//        }
-//
-//        lawnWithQuickstepGithub {
-//            manifest.srcFile "quickstep/AndroidManifest-launcher.xml"
-//        }
-//
-//        lawnWithQuickstepNightly {
-//            manifest.srcFile "quickstep/AndroidManifest-launcher.xml"
-//        }
-//
-//        lawnWithQuickstepPlay {
-//            manifest.srcFile "quickstep/AndroidManifest-launcher.xml"
-//        }
-//
-//        withQuickstep {
-//            res.srcDirs = ['quickstep/res', 'quickstep/recents_ui_overrides/res']
-//            java.srcDirs = ['quickstep/src', 'quickstep/recents_ui_overrides/src']
-//            manifest.srcFile "quickstep/AndroidManifest.xml"
-//        }
+        lawn {
+            java.srcDirs = ['src_flags', 'src_shortcuts_overrides', 'lawnchair/src', 'tests/shared']
+            aidl.srcDirs = ['lawnchair/aidl']
+            res.srcDirs = ['lawnchair/res', 'platform_frameworks_libs_systemui/animationlib/res']
+            manifest.srcFile "lawnchair/AndroidManifest.xml"
+            assets {
+                srcDirs 'lawnchair/assets'
+            }
+            proto {
+                srcDirs = ['lawnchair/protos/']
+            }
+        }
+
+        lawnWithQuickstepGithub {
+            manifest.srcFile "quickstep/AndroidManifest-launcher.xml"
+        }
+
+        lawnWithQuickstepNightly {
+            manifest.srcFile "quickstep/AndroidManifest-launcher.xml"
+        }
+
+        lawnWithQuickstepPlay {
+            manifest.srcFile "quickstep/AndroidManifest-launcher.xml"
+        }
+
+        withQuickstep {
+            res.srcDirs = ['quickstep/res', 'quickstep/recents_ui_overrides/res']
+            java.srcDirs = ['quickstep/src', 'quickstep/recents_ui_overrides/src']
+            manifest.srcFile "quickstep/AndroidManifest.xml"
+        }
     }
 }
 
@@ -350,31 +344,31 @@ dependencies {
     implementation projects.animationlib
 
     // Recents lib dependency
-//    withQuickstepCompileOnly projects.hiddenApi
-//    withQuickstepImplementation projects.shared
-//    withQuickstepImplementation projects.anim
-//    withQuickstepImplementation projects.unfold
-//    withQuickstepImplementation projects.viewcapture
-//    withQuickstepImplementation projects.log
-//    withQuickstepCompileOnly projects.plugin
-//    withQuickstepImplementation projects.plugincore
-//    withQuickstepCompileOnly projects.common
-//
-//    // QuickSwitch Compat
-//    withQuickstepImplementation projects.compatLib
-//    withQuickstepImplementation projects.compatLib.compatLibVQ
-//    withQuickstepImplementation projects.compatLib.compatLibVR
-//    withQuickstepImplementation projects.compatLib.compatLibVS
-//    withQuickstepImplementation projects.compatLib.compatLibVT
-//    withQuickstepImplementation projects.compatLib.compatLibVU
-//    withQuickstepImplementation projects.compatLib.compatLibVV
-//    withQuickstepImplementation projects.wmshell
-//    withQuickstepImplementation projects.flags
+    withQuickstepCompileOnly projects.hiddenApi
+    withQuickstepImplementation projects.shared
+    withQuickstepImplementation projects.anim
+    withQuickstepImplementation projects.unfold
+    withQuickstepImplementation projects.viewcapture
+    withQuickstepImplementation projects.log
+    withQuickstepCompileOnly projects.plugin
+    withQuickstepImplementation projects.plugincore
+    withQuickstepCompileOnly projects.common
+
+    // QuickSwitch Compat
+    withQuickstepImplementation projects.compatLib
+    withQuickstepImplementation projects.compatLib.compatLibVQ
+    withQuickstepImplementation projects.compatLib.compatLibVR
+    withQuickstepImplementation projects.compatLib.compatLibVS
+    withQuickstepImplementation projects.compatLib.compatLibVT
+    withQuickstepImplementation projects.compatLib.compatLibVU
+    withQuickstepImplementation projects.compatLib.compatLibVV
+    withQuickstepImplementation projects.wmshell
+    withQuickstepImplementation projects.flags
     implementation 'androidx.dynamicanimation:dynamicanimation:1.0.0'
 
     implementation fileTree(dir: FRAMEWORK_PREBUILTS_DIR, include: 'SystemUI-statsd-15.jar')
     implementation fileTree(dir: FRAMEWORK_PREBUILTS_DIR, include: 'WindowManager-Shell-15.jar')
-//    withQuickstepCompileOnly fileTree(dir: FRAMEWORK_PREBUILTS_DIR, include: 'framework-15.jar')
+    withQuickstepCompileOnly fileTree(dir: FRAMEWORK_PREBUILTS_DIR, include: 'framework-15.jar')
 
     coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.1.5'
 
