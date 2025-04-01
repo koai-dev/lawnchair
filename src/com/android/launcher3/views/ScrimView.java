@@ -74,10 +74,10 @@ public class ScrimView extends View implements Insettable {
 
     @Override
     public void setBackgroundColor(int color) {
-        mBackgroundColor = color;
-        updateSysUiColors();
-        dispatchVisibilityListenersIfNeeded();
-        super.setBackgroundColor(color);
+//        mBackgroundColor = color;
+//        updateSysUiColors();
+//        dispatchVisibilityListenersIfNeeded();
+//        super.setBackgroundColor(color);
     }
 
     public int getBackgroundColor() {
@@ -121,15 +121,15 @@ public class ScrimView extends View implements Insettable {
     protected void updateSysUiColors() {
         // Use a light system UI (dark icons) if all apps is behind at least half of the
         // status bar.
-        final float threshold = STATUS_BAR_COLOR_FORCE_UPDATE_THRESHOLD;
-        boolean forceChange = getVisibility() == VISIBLE
-                && getAlpha() > threshold
-                && (Color.alpha(mBackgroundColor) / 255f) > threshold;
-        if (forceChange) {
-            getSystemUiController().updateUiState(UI_STATE_SCRIM_VIEW, !isScrimDark());
-        } else {
-            getSystemUiController().updateUiState(UI_STATE_SCRIM_VIEW, 0);
-        }
+//        final float threshold = STATUS_BAR_COLOR_FORCE_UPDATE_THRESHOLD;
+//        boolean forceChange = getVisibility() == VISIBLE
+//                && getAlpha() > threshold
+//                && (Color.alpha(mBackgroundColor) / 255f) > threshold;
+//        if (forceChange) {
+//            getSystemUiController().updateUiState(UI_STATE_SCRIM_VIEW, !isScrimDark());
+//        } else {
+//            getSystemUiController().updateUiState(UI_STATE_SCRIM_VIEW, 0);
+//        }
     }
 
     private void dispatchVisibilityListenersIfNeeded() {

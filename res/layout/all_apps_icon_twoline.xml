@@ -19,6 +19,8 @@
     android:id="@+id/icon"
     android:singleLine="false"
     android:lines="2"
+    android:elevation="1dp"
+    android:translationZ="1dp"
     launcher:iconDisplay="all_apps"
     launcher:centerVertically="true" />
 

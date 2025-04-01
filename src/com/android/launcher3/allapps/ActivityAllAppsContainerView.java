@@ -766,7 +766,7 @@ public class ActivityAllAppsContainerView<T extends Context & ActivityContext>
             alignParentTop(rvContainer, showTabs);
             alignParentTop(getSearchRecyclerView(), /* tabs= */ false);
         } else {
-            layoutBelowSearchContainer(rvContainer, showTabs);
+//            layoutBelowSearchContainer(rvContainer, showTabs);
             layoutBelowSearchContainer(getSearchRecyclerView(), /* tabs= */ false);
         }
 

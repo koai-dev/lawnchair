@@ -73,12 +73,12 @@
         android:layout_width="@dimen/search_box_height"
         android:layout_height="@dimen/search_box_height"
         android:layout_gravity="center|start"
-        android:background="@drawable/pill_ripple"
         android:layout_marginEnd="6dp"
+        android:background="@drawable/pill_ripple"
         android:clickable="true"
         android:contentDescription="@string/search_bar_label"
         android:scaleType="center"
-        android:src="@drawable/ic_allapps_search"
+        android:src="@drawable/ic_taskbar_all_apps_search_button"
         app:tint="?android:textColorSecondary" />
 
     <LinearLayout
