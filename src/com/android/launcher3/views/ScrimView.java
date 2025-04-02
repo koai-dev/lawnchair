@@ -164,10 +164,10 @@ public class ScrimView extends View implements Insettable {
      * Sets drawing controller. Invalidates ScrimView if drawerController has changed.
      */
     public void setDrawingController(ScrimDrawingController drawingController) {
-        if (mDrawingController != drawingController) {
-            mDrawingController = drawingController;
-            invalidate();
-        }
+//        if (mDrawingController != drawingController) {
+//            mDrawingController = drawingController;
+//            invalidate();
+//        }
     }
 
     /**

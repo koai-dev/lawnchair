@@ -1675,7 +1675,7 @@ public class ActivityAllAppsContainerView<T extends Context & ActivityContext>
                 if (isSearchBarFloating()) {
                     bottomOffset += mSearchContainer.getHeight();
                 }
-                mRecyclerView.setPadding(mPadding.left, mPadding.top, mPadding.right,
+                mRecyclerView.setPadding(mPadding.left, mPadding.top + Utilities.dpToPx(60), mPadding.right,
                         mPadding.bottom + bottomOffset);
             }
         }

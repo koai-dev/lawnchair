@@ -472,4 +472,8 @@
         <item name="customFontType">@id/font_heading</item>
         <item name="android:ellipsize">end</item>
     </style>
+
+    <style name="TextAppearance.Material3.DisplayLarge.Bold" parent="TextAppearance.Material3.DisplayLarge">
+        <item name="android:textStyle">bold</item>
+    </style>
 </resources>

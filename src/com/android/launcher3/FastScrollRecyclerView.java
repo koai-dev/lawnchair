@@ -117,7 +117,7 @@ public abstract class FastScrollRecyclerView extends RecyclerView {
      */
     protected int getAvailableScrollHeight() {
         // AvailableScrollHeight = Total height of the all items - first page height
-        int firstPageHeight = getMeasuredHeight() - getPaddingTop() - getPaddingBottom();
+        int firstPageHeight = getMeasuredHeight() - getScrollBarTop() - getPaddingBottom();
         int availableScrollHeight = computeVerticalScrollRange() - firstPageHeight;
         return Math.max(0, availableScrollHeight);
     }

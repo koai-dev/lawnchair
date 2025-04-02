@@ -16,9 +16,9 @@ import android.view.View
 import android.view.View.OnFocusChangeListener
 import android.view.ViewTreeObserver
 import android.view.animation.DecelerateInterpolator
-import android.widget.FrameLayout
 import android.widget.ImageButton
 import android.widget.TextView
+import androidx.cardview.widget.CardView
 import androidx.core.view.ViewCompat
 import androidx.core.view.isInvisible
 import androidx.core.view.isVisible
@@ -59,7 +59,7 @@ import kotlin.math.max
 import kotlinx.coroutines.launch
 
 class AllAppsSearchInput(context: Context, attrs: AttributeSet?) :
-    FrameLayout(context, attrs),
+    CardView(context, attrs),
     Insettable,
     OnIDPChangeListener,
     SearchUiManager,
@@ -155,8 +155,8 @@ class AllAppsSearchInput(context: Context, attrs: AttributeSet?) :
                 isVisible = true
 
                 val iconRes = if (themed) searchProvider.themedIcon else searchProvider.icon
-                val resId = if (shouldShowIcons) iconRes else R.drawable.ic_qsb_search
-                val isThemed = themed || resId == R.drawable.ic_qsb_search
+                val resId = if (shouldShowIcons) iconRes else R.drawable.stacks_24
+                val isThemed = themed || resId == R.drawable.stacks_24
                 val method = if (shouldShowIcons) searchProvider.themingMethod else ThemingMethod.TINT
 
                 setThemedIconResource(
