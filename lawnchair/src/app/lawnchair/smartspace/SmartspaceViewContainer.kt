@@ -4,15 +4,21 @@ import android.content.Context
 import android.graphics.Rect
 import android.graphics.RectF
 import android.util.AttributeSet
+import android.view.ContextThemeWrapper
 import android.view.LayoutInflater
 import android.view.MotionEvent
 import android.view.View
 import android.widget.FrameLayout
+import android.widget.LinearLayout
+import android.widget.TextClock
+import androidx.compose.ui.Alignment
+import androidx.core.view.marginLeft
 import app.lawnchair.LawnchairLauncher
 import app.lawnchair.launcher
 import app.lawnchair.launcherNullable
 import app.lawnchair.ui.preferences.PreferenceActivity
 import app.lawnchair.ui.preferences.navigation.Routes
+import com.android.internal.widget.RecyclerView.LayoutManager
 import com.android.launcher3.CheckLongPressHelper
 import com.android.launcher3.R
 import com.android.launcher3.logging.StatsLogManager
@@ -39,7 +45,21 @@ class SmartspaceViewContainer @JvmOverloads constructor(
             openOptions()
             true
         }
-        addView(smartspaceView)
+
+        val ctn = LinearLayout(context).apply {
+            orientation = LinearLayout.VERTICAL
+        }
+        ctn.addView(TextClock(context).apply {
+            format12Hour = "h:mm"
+            setTextAppearance(R.style.TextAppearance_Material3_DisplayLarge_Bold)
+            setPadding(leftPadding ?: (left + 16), top, right, bottom)
+        })
+        ctn.addView(IcuDateTextView(context).apply {
+            setPadding(leftPadding ?: (left + 16), top, right, bottom)
+            setTextAppearance(R.style.EnhancedSmartspaceTextTitle)
+        })
+//        ctn.addView(smartspaceView)
+        addView(ctn)
     }
 
     private fun openOptions() {

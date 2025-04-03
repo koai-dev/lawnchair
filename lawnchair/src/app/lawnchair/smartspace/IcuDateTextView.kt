@@ -50,7 +50,7 @@ class IcuDateTextView @JvmOverloads constructor(
             combine(calendarFlow, optionsFlow) { calendar, options -> calendar to options }
                 .subscribeBlocking(this) {
                     calendar = it.first
-                    dateTimeOptions = it.second
+                    dateTimeOptions = it.second.copy(showTime = false)
                     onTimeChanged(true)
                 }
 
