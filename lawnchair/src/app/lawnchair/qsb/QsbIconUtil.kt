@@ -31,8 +31,8 @@ fun ImageView.setThemedIconResource(
                 }
                 if (color == 0) continue
 
-                val layer = drawable.getDrawable(i)
-                layer.setTint(color)
+//                val layer = drawable.getDrawable(i)
+//                layer.setTint(color)
             }
         }
         setImageDrawable(drawable)
