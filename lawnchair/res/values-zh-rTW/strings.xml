@@ -45,7 +45,7 @@
     <string name="download_update">下載更新</string>
     <string name="install_update">安裝更新</string>
     <string name="pro_updated">現在已經是最新版本!</string>
-    <string name="managed_by_lawnchair">由 Lawnchair 管理</string>
+    <string name="managed_by_lawnchair">由 KidOS 管理</string>
     <!-- When mentioning settings UI -->
     <string name="smartspace_preferences">偏好設定</string>
     <string name="settings_button_text">主畫面設定</string>
@@ -53,7 +53,7 @@
     <string name="title_change_settings">變更設定</string>
     <!--
 
-    General "words" used throughout Lawnchair
+    General "words" used throughout KidOS
 
     -->
     <string name="others_category_label">其他</string>
@@ -97,7 +97,7 @@
     <string name="folders_filter_duplicates">僅顯示唯一應用</string>
     <string name="my_folder_label">我的資料夾</string>
     <!-- A11y description -->
-    <string name="accessibility_service_description">手勢執行某些操作（例如鎖定螢幕），Lawnchair 需要無障礙權限。\n\nLawnchair 不会監視任何用户操作，儘管所有無障礙服務都有這樣做的權限。Lawnchair 會捨棄系統發送的的任何事件。\n\n為了鎖定螢幕或打開“最近”應用，Lawnchair 會使用 performGlobalAction 無障礙服務。</string>
+    <string name="accessibility_service_description">手勢執行某些操作（例如鎖定螢幕），KidOS 需要無障礙權限。\n\nKidOS 不会監視任何用户操作，儘管所有無障礙服務都有這樣做的權限。KidOS 會捨棄系統發送的的任何事件。\n\n為了鎖定螢幕或打開“最近”應用，KidOS 會使用 performGlobalAction 無障礙服務。</string>
     <string name="x_with_y_count">%1$s (%2$d)</string>
     <string name="x_by_y">%1$d × %2$d</string>
     <string name="x_and_y">%1$s &amp; %2$s</string>
@@ -126,7 +126,7 @@
     <string name="quickstep_description">清除全部按鈕、圓角大小</string>
     <string name="about_label">關於</string>
     <string name="app_info_drop_target_label">應用程式資訊</string>
-    <string name="debug_restart_launcher">Restart Lawnchair</string>
+    <string name="debug_restart_launcher">Restart KidOS</string>
     <string name="experimental_features_label">實驗性功能</string>
     <!-- Experimental features -->
     <string name="font_picker_label">自訂字型</string>
@@ -150,7 +150,7 @@
     Notifications
 
     -->
-    <string name="set_default_launcher_tip">將 Lawnchair 設為預設啟動器來存取捷徑和更多功能</string>
+    <string name="set_default_launcher_tip">將 KidOS 設為預設啟動器來存取捷徑和更多功能</string>
     <string name="notification_dots">通知圓點</string>
     <string name="show_notification_count">顯示通知圖示數字</string>
     <string name="notification_dots_color">通知圓點顏色</string>
@@ -321,7 +321,7 @@
     <string name="event_provider_missing_notification_dots">使用 <xliff:g example="My Provider" id="providerName">%1$s</xliff:g>, 開啟通知圓點.</string>
     <!-- Toggle button for enabling Smartspace -->
     <string name="smartspace_widget_toggle_label">在主畫面顯示</string>
-    <string name="smartspace_widget_toggle_description">透過將 Lawnchair widgets放置在主螢幕上來手動添加“At a Glance”</string>
+    <string name="smartspace_widget_toggle_description">透過將 KidOS widgets放置在主螢幕上來手動添加“At a Glance”</string>
     <!-- List of available providers -->
     <string name="smartspace_mode_label">At a Glance提供者</string>
     <string name="smartspace_mode_google">Google</string>
@@ -389,15 +389,15 @@
     <string name="dt2s_admin_hint">。</string>
     <string name="dt2s_admin_warning">輕觸兩下進入睡眠模式將會關閉。</string>
     <string name="d2ts_recents_a11y_hint_title">開啟無障礙服務</string>
-    <string name="dt2s_a11y_hint">若要使用輕觸兩下進入睡眠功能，請開啟 Lawnchair 輔助功能服務。 輕觸 “開啟設定”，選擇 “Lawnchair”，然後開啟 “使用 Lawnchair。”\n\nLawnchair 使用 Accessibility 的 `performGlobalAction` 方法執行此操作。 這是一個敏感權限，允許監控其他應用程式。 然而，Lawnchair 並未配置該功能且未接收任何事件。</string>
+    <string name="dt2s_a11y_hint">若要使用輕觸兩下進入睡眠功能，請開啟 KidOS 輔助功能服務。 輕觸 “開啟設定”，選擇 “KidOS”，然後開啟 “使用 KidOS。”\n\nKidOS 使用 Accessibility 的 `performGlobalAction` 方法執行此操作。 這是一個敏感權限，允許監控其他應用程式。 然而，KidOS 並未配置該功能且未接收任何事件。</string>
     <string name="dt2s_recents_warning_open_settings">開啟設定</string>
-    <string name="recents_a11y_hint">若要使用「開啟最近任務頁面」功能，請開啟 Lawnchair 輔助功能服務。 點按“開啟設定”，選擇“Lawnchair”並開啟“使用 Lawnchair”。 \n\nLawnchair使用無障礙的“performGlobalAction”方法來執行此操作。 這是一個敏感權限，允許監視其他應用程式。 但是，Lawnchair 未配置該功能，也不會接收任何事件。</string>
+    <string name="recents_a11y_hint">若要使用「開啟最近任務頁面」功能，請開啟 KidOS 輔助功能服務。 點按“開啟設定”，選擇“KidOS”並開啟“使用 KidOS”。 \n\nKidOS使用無障礙的“performGlobalAction”方法來執行此操作。 這是一個敏感權限，允許監視其他應用程式。 但是，KidOS 未配置該功能，也不會接收任何事件。</string>
     <!--
 
     Bug reporting
 
     -->
-    <string name="lawnchair_bug_report">Lawnchair 臭蟲回報</string>
+    <string name="lawnchair_bug_report">KidOS 臭蟲回報</string>
     <string name="crash_report_notif_title">%1$s 已崩潰</string>
     <string name="action_upload_crash_report">上傳崩潰日誌</string>
     <string name="action_upload_error">上傳失敗</string>
@@ -489,7 +489,7 @@
     <string name="page_indicator_height">Page indicator height</string>
     <!-- Search providers -->
     <string name="search_provider_app_search">應用程式搜尋</string>
-    <string name="search_provider_sponsored_description">%1$s and Lawnchair have a revenue share agreement.\n\nSearching with %1$s helps support Lawnchair.</string>
+    <string name="search_provider_sponsored_description">%1$s and KidOS have a revenue share agreement.\n\nSearching with %1$s helps support KidOS.</string>
     <string name="app_label">應用程式</string>
     <string name="website_label">網站</string>
     <string name="qsb_search_provider_app_required">需要應用程式</string>
@@ -521,7 +521,7 @@
     <string name="max_folder_columns">Maximum folder columns</string>
     <string name="max_folder_rows">Maximum folder rows</string>
     <!-- Quickstep settings -->
-    <string name="quickswitch_ignored_warning">These settings will be ignored as Lawnchair isn\'t set as the Recents provider</string>
+    <string name="quickswitch_ignored_warning">These settings will be ignored as KidOS isn\'t set as the Recents provider</string>
     <string name="quickstep_incompatible">不相容的系統整合</string>
     <string name="quickstep_incompatible_description">您的裝置配置為使用 %1$s 提供的系統手勢 (稱為 Quickstep)，但此版本的 %1$s 與您的 Android 版本不相容。 若要繼續使用您的裝置，請解除安裝 %1$s 更新或停用 %1$s 作為系統手勢提供者。</string>
     <string name="translucent_background">半透明背景</string>
@@ -594,8 +594,8 @@
     <string name="max_suggestion_result_count_title">Maximum number of suggestions</string>
     <string name="max_web_suggestion_delay">Maximum web suggestion delay</string>
     <!-- Permission warnings -->
-    <string name="warn_contact_permission_content">To search for contacts, grant contacts and phone permissions to Lawnchair</string>
-    <string name="warn_files_permission_content">To search your files, grant storage permissions to Lawnchair</string>
+    <string name="warn_contact_permission_content">To search for contacts, grant contacts and phone permissions to KidOS</string>
+    <string name="warn_files_permission_content">To search your files, grant storage permissions to KidOS</string>
     <string name="grant_requested_permissions">給予權限</string>
     <string name="allapps_web_suggestion_provider_label">網路建議提供者</string>
     <string name="allapps_use_web_suggestion_icon_label">在搜尋列中顯示網頁建議提供者圖示</string>

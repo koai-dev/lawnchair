@@ -45,7 +45,7 @@
     <string name="download_update">Frissítés-letöltés</string>
     <string name="install_update">Frissítés-telepítés</string>
     <string name="pro_updated">Minden a legfrissebb!</string>
-    <string name="managed_by_lawnchair">A Lawnchair által kezelve</string>
+    <string name="managed_by_lawnchair">A KidOS által kezelve</string>
     <!-- When mentioning settings UI -->
     <string name="smartspace_preferences">Beállítások</string>
     <string name="settings_button_text">Kezdőoldal-beállítások</string>
@@ -53,7 +53,7 @@
     <string name="title_change_settings">Beállítások módosítása</string>
     <!--
 
-    General "words" used throughout Lawnchair
+    General "words" used throughout KidOS
 
     -->
     <string name="others_category_label">Egyebek</string>
@@ -97,7 +97,7 @@
     <string name="folders_filter_duplicates">Csak az egyedi alkalmazások jelenjenek meg</string>
     <string name="my_folder_label">Mappáim</string>
     <!-- A11y description -->
-    <string name="accessibility_service_description">Bizonyos műveletek végrehajtásához (pl. a telefon zárolása) kézmozdulat végrehajtásával a Lawnchair kisegítő hozzáférést igényel.\n\nA Lawnchair nem figyel semmilyen felhasználói műveletet, bár az ehhez szükséges jogosultság minden akadálymentesítési szolgáltatáshoz szükséges. A Lawnchair elveti a rendszereseményeket.\n\nA telefon zárolásához vagy az Előzmények megnyitásához a Lawnchair a \'performGlobalAction Accessibility\' szolgáltatást használja.</string>
+    <string name="accessibility_service_description">Bizonyos műveletek végrehajtásához (pl. a telefon zárolása) kézmozdulat végrehajtásával a KidOS kisegítő hozzáférést igényel.\n\nA KidOS nem figyel semmilyen felhasználói műveletet, bár az ehhez szükséges jogosultság minden akadálymentesítési szolgáltatáshoz szükséges. A KidOS elveti a rendszereseményeket.\n\nA telefon zárolásához vagy az Előzmények megnyitásához a KidOS a \'performGlobalAction Accessibility\' szolgáltatást használja.</string>
     <string name="x_with_y_count">%1$s (%2$d)</string>
     <string name="x_by_y">%1$d × %2$d</string>
     <string name="x_and_y">%1$s és %2$s</string>
@@ -126,7 +126,7 @@
     <string name="quickstep_description">„Összes törlése” gomb, sarok sugara</string>
     <string name="about_label">Névjegy</string>
     <string name="app_info_drop_target_label">Alkalmazásinformáció</string>
-    <string name="debug_restart_launcher">A Lawnchair újraindítása</string>
+    <string name="debug_restart_launcher">A KidOS újraindítása</string>
     <string name="experimental_features_label">Kísérleti funkciók</string>
     <!-- Experimental features -->
     <string name="font_picker_label">A Betűkészlet testreszabása</string>
@@ -150,7 +150,7 @@
     Notifications
 
     -->
-    <string name="set_default_launcher_tip">A parancsikonok és a további funkciók eléréséhez állítsa be a Lawnchair-t alapértelmezettként</string>
+    <string name="set_default_launcher_tip">A parancsikonok és a további funkciók eléréséhez állítsa be a KidOS-t alapértelmezettként</string>
     <string name="notification_dots">Értesítési pöttyök</string>
     <string name="show_notification_count">Legyen látható az értesítés-számláló</string>
     <string name="notification_dots_color">Az értesítési pöttyök színe</string>
@@ -321,7 +321,7 @@
     <string name="event_provider_missing_notification_dots">Kapcsolja be az Értesítési pöttyöket a <xliff:g example="My Provider" id="providerName">%1$s</xliff:g> használatához</string>
     <!-- Toggle button for enabling Smartspace -->
     <string name="smartspace_widget_toggle_label">Megjelenítés a Kezdőképernyőn</string>
-    <string name="smartspace_widget_toggle_description">A \'Bepillantás\' manuálisan hozzáadható a Kezdőképernyőhöz a Lawnchair kisalkalmazás elhelyezésével</string>
+    <string name="smartspace_widget_toggle_description">A \'Bepillantás\' manuálisan hozzáadható a Kezdőképernyőhöz a KidOS kisalkalmazás elhelyezésével</string>
     <!-- List of available providers -->
     <string name="smartspace_mode_label">A \'Bepillantás\' szolgáltatója</string>
     <string name="smartspace_mode_google">Google</string>
@@ -386,18 +386,18 @@
     <string name="gesture_handler_open_assistant">A segéd indítása</string>
     <string name="pick_app_for_gesture">Egy alkalmazás választása</string>
     <string name="dt2s_admin_hint_title">Adminisztrátori jogosultság szükséges</string>
-    <string name="dt2s_admin_hint">A \'Képernyőkikapcsolás Duplakoppal\' funkcióhoz állítsa be készülékvezérlőként a Lawnchair-t. Nyissa meg a Beállításokat és érintse meg az \"Aktiválja a készülék-adminisztrátori alkalmazást\" lehetőséget</string>
+    <string name="dt2s_admin_hint">A \'Képernyőkikapcsolás Duplakoppal\' funkcióhoz állítsa be készülékvezérlőként a KidOS-t. Nyissa meg a Beállításokat és érintse meg az \"Aktiválja a készülék-adminisztrátori alkalmazást\" lehetőséget</string>
     <string name="dt2s_admin_warning">A \'Képernyőkikapcsolás Duplakoppal\' kikapcsolásra kerül.</string>
     <string name="d2ts_recents_a11y_hint_title">A \'Kisegítő lehetőségek\' bekapcsolása</string>
-    <string name="dt2s_a11y_hint">A \'Képernyőkikapcsolás Duplakoppal\' használatához kapcsolja be a Lawnchair \'Kisegítő lehetőségei\'-t. Koppintson a „Beállítások megnyitása”, válassza a „Lawnchair” lehetőséget, és kapcsolja be a „Lawnchair használata” lehetőséget.\n\nA Lawnchair az akadálymentesítés „performGlobalAction” metódusát használja a művelet végrehajtásához. Ez egy bizalmas engedély, amely lehetővé teszi más alkalmazások figyelését. A Lawnchair azonban nincs konfigurálva ehhez a funkcióhoz, és nem fogad eseményeket.</string>
+    <string name="dt2s_a11y_hint">A \'Képernyőkikapcsolás Duplakoppal\' használatához kapcsolja be a KidOS \'Kisegítő lehetőségei\'-t. Koppintson a „Beállítások megnyitása”, válassza a „KidOS” lehetőséget, és kapcsolja be a „KidOS használata” lehetőséget.\n\nA KidOS az akadálymentesítés „performGlobalAction” metódusát használja a művelet végrehajtásához. Ez egy bizalmas engedély, amely lehetővé teszi más alkalmazások figyelését. A KidOS azonban nincs konfigurálva ehhez a funkcióhoz, és nem fogad eseményeket.</string>
     <string name="dt2s_recents_warning_open_settings">A Beállítások megnyitása</string>
-    <string name="recents_a11y_hint">\'Az Előzmények megnyitása\' használatához kapcsolja be a Lawnchair \'Kisegítő lehetőségei\'-t. Koppintson a „Beállítások megnyitása”, válassza a „Lawnchair” lehetőséget, és kapcsolja be a „Lawnchair használata” lehetőséget.\n\nA Lawnchair az akadálymentesítés „performGlobalAction” metódusát használja a művelet végrehajtásához. Ez egy bizalmas engedély, amely lehetővé teszi más alkalmazások figyelését. A Lawnchair azonban nincs konfigurálva ehhez a funkcióhoz, és nem fogad eseményeket.</string>
+    <string name="recents_a11y_hint">\'Az Előzmények megnyitása\' használatához kapcsolja be a KidOS \'Kisegítő lehetőségei\'-t. Koppintson a „Beállítások megnyitása”, válassza a „KidOS” lehetőséget, és kapcsolja be a „KidOS használata” lehetőséget.\n\nA KidOS az akadálymentesítés „performGlobalAction” metódusát használja a művelet végrehajtásához. Ez egy bizalmas engedély, amely lehetővé teszi más alkalmazások figyelését. A KidOS azonban nincs konfigurálva ehhez a funkcióhoz, és nem fogad eseményeket.</string>
     <!--
 
     Bug reporting
 
     -->
-    <string name="lawnchair_bug_report">Lawnchair-hibajelentés</string>
+    <string name="lawnchair_bug_report">KidOS-hibajelentés</string>
     <string name="crash_report_notif_title">A(z) %1$s összeomlott</string>
     <string name="action_upload_crash_report">Összeomlási napló feltöltése</string>
     <string name="action_upload_error">Feltöltési hiba</string>
@@ -489,7 +489,7 @@
     <string name="page_indicator_height">Az oldaljelzés magassága</string>
     <!-- Search providers -->
     <string name="search_provider_app_search">Alkalmazáskereső</string>
-    <string name="search_provider_sponsored_description">%1$s és a Lawnchair bevételmegosztási megállapodást kötött.\n\nHa %1$s végzi a keresést, azzal segít a Lawnchair-nek is.</string>
+    <string name="search_provider_sponsored_description">%1$s és a KidOS bevételmegosztási megállapodást kötött.\n\nHa %1$s végzi a keresést, azzal segít a KidOS-nek is.</string>
     <string name="app_label">Alkalmazás</string>
     <string name="website_label">Weboldal</string>
     <string name="qsb_search_provider_app_required">Ehhez kell egy alkalmazás</string>
@@ -522,7 +522,7 @@
     <string name="max_folder_columns">A mappaoszlopok maximuma</string>
     <string name="max_folder_rows">A mappasorok maximuma</string>
     <!-- Quickstep settings -->
-    <string name="quickswitch_ignored_warning">Ezeket a beállításokat a rendszer figyelmen kívül hagyja, mivel a Lawnchair nincs beállítva az Előzmények szolgáltatójaként</string>
+    <string name="quickswitch_ignored_warning">Ezeket a beállításokat a rendszer figyelmen kívül hagyja, mivel a KidOS nincs beállítva az Előzmények szolgáltatójaként</string>
     <string name="quickstep_incompatible">Nem kompatibilis rendszer-integráció</string>
     <string name="quickstep_incompatible_description">Készüléke úgy van konfigurálva, hogy a(z) %1$s által biztosított rendszermozdulatokat (az úgynevezett Quickstep-et) tartalmazza, de a %1$s-verzió nem kompatibilis az Android-verzióval. A készülék további használatához, kérjük távolítsa el az utolsó %1$s-frissítést vagy állítsa be úgy készülékét hogy nem a(z) %1$s a rendszer mozdulatvezérlője.</string>
     <string name="translucent_background">Átlátszó háttér</string>
@@ -595,8 +595,8 @@
     <string name="max_suggestion_result_count_title">A javaslatok maximális száma</string>
     <string name="max_web_suggestion_delay">Az internetes javaslatok maximális késleltetése</string>
     <!-- Permission warnings -->
-    <string name="warn_contact_permission_content">Névjegyek kereséséhez adjon a Lawnchair-nek hozzáférést a névjegyekhez és a telefonhoz</string>
-    <string name="warn_files_permission_content">Fájlok kereséséhez adjon a Lawnchair-nek hozzáférést a készülék tárhelyéhez</string>
+    <string name="warn_contact_permission_content">Névjegyek kereséséhez adjon a KidOS-nek hozzáférést a névjegyekhez és a telefonhoz</string>
+    <string name="warn_files_permission_content">Fájlok kereséséhez adjon a KidOS-nek hozzáférést a készülék tárhelyéhez</string>
     <string name="grant_requested_permissions">Engedélyek megadása</string>
     <string name="allapps_web_suggestion_provider_label">A webes javaslatok szolgáltatója</string>
     <string name="allapps_use_web_suggestion_icon_label">A szolgáltató ikonja megjelenik a keresősoron.</string>

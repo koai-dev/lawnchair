@@ -45,7 +45,7 @@
     <string name="download_update">Download update</string>
     <string name="install_update">Install update</string>
     <string name="pro_updated">You\'re up-to-date!</string>
-    <string name="managed_by_lawnchair">Gerido por Lawnchair</string>
+    <string name="managed_by_lawnchair">Gerido por KidOS</string>
     <!-- When mentioning settings UI -->
     <string name="smartspace_preferences">Preferências</string>
     <string name="settings_button_text">Definições do ecrã principal</string>
@@ -53,7 +53,7 @@
     <string name="title_change_settings">Alterar definições</string>
     <!--
 
-    General "words" used throughout Lawnchair
+    General "words" used throughout KidOS
 
     -->
     <string name="others_category_label">Outros</string>
@@ -97,7 +97,7 @@
     <string name="folders_filter_duplicates">Only show unique apps</string>
     <string name="my_folder_label">A minha pasta</string>
     <!-- A11y description -->
-    <string name="accessibility_service_description">To perform certain actions (such as locking your phone) when performing a gesture, Lawnchair requires accessibility access.\n\nLawnchair doesn\'t watch any user action, though the privilege to do so is required for all accessibility services. Lawnchair discards any event sent by the system.\n\nIn order to lock your phone, or to open Recents, Lawnchair uses the performGlobalAction Accessibility service.</string>
+    <string name="accessibility_service_description">To perform certain actions (such as locking your phone) when performing a gesture, KidOS requires accessibility access.\n\nKidOS doesn\'t watch any user action, though the privilege to do so is required for all accessibility services. KidOS discards any event sent by the system.\n\nIn order to lock your phone, or to open Recents, KidOS uses the performGlobalAction Accessibility service.</string>
     <string name="x_with_y_count">%1$s (%2$d)</string>
     <string name="x_by_y">%1$d x %2$d</string>
     <string name="x_and_y">%1$s &amp; %2$s</string>
@@ -126,7 +126,7 @@
     <string name="quickstep_description">Botão limpar tudo, raio do canto</string>
     <string name="about_label">Sobre</string>
     <string name="app_info_drop_target_label">Informação das aplicações</string>
-    <string name="debug_restart_launcher">Reiniciar o Lawnchair</string>
+    <string name="debug_restart_launcher">Reiniciar o KidOS</string>
     <string name="experimental_features_label">Funcionalidades experimentais</string>
     <!-- Experimental features -->
     <string name="font_picker_label">Personalização de fontes</string>
@@ -150,7 +150,7 @@
     Notifications
 
     -->
-    <string name="set_default_launcher_tip">Para aceder a atalhos e funcionalidades adicionais, define o Lawnchair como o teu launcher predefinido</string>
+    <string name="set_default_launcher_tip">Para aceder a atalhos e funcionalidades adicionais, define o KidOS como o teu launcher predefinido</string>
     <string name="notification_dots">Pontos de notificação</string>
     <string name="show_notification_count">Mostrar contador de notificações</string>
     <string name="notification_dots_color">Cor do ponto de notificação</string>
@@ -172,7 +172,7 @@
     <string name="label_size">Tamanho dos rótulos</string>
     <string name="twoline_label">Usa múltiplas linhas</string>
     <!-- Icon-related settings -->
-    <string name="transparent_background_icons_label">Ícones Temáticos 
+    <string name="transparent_background_icons_label">Ícones Temáticos
 Transparentes</string>
     <string name="transparent_background_icons_description">Usar fundo transparente nos ícones temáticos</string>
     <string name="auto_adaptive_icons_label">Ícones auto-adaptáveis</string>
@@ -322,7 +322,7 @@ Transparentes</string>
     <string name="event_provider_missing_notification_dots">Para usar <xliff:g example="My Provider" id="providerName">%1$s</xliff:g>, ative os Pontos de Notificação.</string>
     <!-- Toggle button for enabling Smartspace -->
     <string name="smartspace_widget_toggle_label">Mostrar no ecrã principal</string>
-    <string name="smartspace_widget_toggle_description">A Visualização rápida pode ser adicionada manualmente ao ecrã inicial colocando o widget Lawnchair</string>
+    <string name="smartspace_widget_toggle_description">A Visualização rápida pode ser adicionada manualmente ao ecrã inicial colocando o widget KidOS</string>
     <!-- List of available providers -->
     <string name="smartspace_mode_label">Fornecedor de Visualização rápida</string>
     <string name="smartspace_mode_google">Google</string>
@@ -387,18 +387,18 @@ Transparentes</string>
     <string name="gesture_handler_open_assistant">Open assistant</string>
     <string name="pick_app_for_gesture">Escolher aplicação</string>
     <string name="dt2s_admin_hint_title">Permissões de administrador necessárias</string>
-    <string name="dt2s_admin_hint">Para usar o Toque Duplo para Adormecer, defina o Lawnchair como uma aplicação de administração do dispositivo. Toque em \"Abrir definições\", depois em \"Ativar esta aplicação de administração do dispositivo.\"</string>
+    <string name="dt2s_admin_hint">Para usar o Toque Duplo para Adormecer, defina o KidOS como uma aplicação de administração do dispositivo. Toque em \"Abrir definições\", depois em \"Ativar esta aplicação de administração do dispositivo.\"</string>
     <string name="dt2s_admin_warning">O Duplo Toque para Dormir será desativado.</string>
     <string name="d2ts_recents_a11y_hint_title">Ativar o serviço de acessibilidade</string>
-    <string name="dt2s_a11y_hint">Para usar o Toque Duplo para Dormir, ativa o serviço de acessibilidade do Lawnchair. Toca em \"Abrir definições\", seleciona \"Lawnchair\" e ativa \"Usar Lawnchair\".\n\nO Lawnchair utiliza o método `performGlobalAction` da Acessibilidade para realizar esta ação. Esta é uma permissão sensível que permite monitorizar outras aplicações. No entanto, o Lawnchair não está configurado para essa funcionalidade e não recebe eventos.</string>
+    <string name="dt2s_a11y_hint">Para usar o Toque Duplo para Dormir, ativa o serviço de acessibilidade do KidOS. Toca em \"Abrir definições\", seleciona \"KidOS\" e ativa \"Usar KidOS\".\n\nO KidOS utiliza o método `performGlobalAction` da Acessibilidade para realizar esta ação. Esta é uma permissão sensível que permite monitorizar outras aplicações. No entanto, o KidOS não está configurado para essa funcionalidade e não recebe eventos.</string>
     <string name="dt2s_recents_warning_open_settings">Abrir definições</string>
-    <string name="recents_a11y_hint">Para usar Abrir Recentes, ativa o serviço de acessibilidade do Lawnchair. Toca em \"Abrir definições\", seleciona \"Lawnchair\" e ativa \"Usar Lawnchair\".\n\nO Lawnchair utiliza o método `performGlobalAction` da Acessibilidade para realizar esta ação. Esta é uma permissão sensível que permite monitorizar outras aplicações. No entanto, o Lawnchair não está configurado para essa funcionalidade e não recebe eventos.</string>
+    <string name="recents_a11y_hint">Para usar Abrir Recentes, ativa o serviço de acessibilidade do KidOS. Toca em \"Abrir definições\", seleciona \"KidOS\" e ativa \"Usar KidOS\".\n\nO KidOS utiliza o método `performGlobalAction` da Acessibilidade para realizar esta ação. Esta é uma permissão sensível que permite monitorizar outras aplicações. No entanto, o KidOS não está configurado para essa funcionalidade e não recebe eventos.</string>
     <!--
 
     Bug reporting
 
     -->
-    <string name="lawnchair_bug_report">Relatório de erro do Lawnchair</string>
+    <string name="lawnchair_bug_report">Relatório de erro do KidOS</string>
     <string name="crash_report_notif_title">%1$s parou de funcionar</string>
     <string name="action_upload_crash_report">Carregar registo de falhas</string>
     <string name="action_upload_error">Falha no envio</string>
@@ -490,7 +490,7 @@ Transparentes</string>
     <string name="page_indicator_height">Altura do indicador de página</string>
     <!-- Search providers -->
     <string name="search_provider_app_search">Pesquisa de aplicações</string>
-    <string name="search_provider_sponsored_description">%1$s e o Lawnchair têm um acordo de partilha de receitas.\n\nPesquisar com o %1$s ajuda a apoiar o Lawnchair.</string>
+    <string name="search_provider_sponsored_description">%1$s e o KidOS têm um acordo de partilha de receitas.\n\nPesquisar com o %1$s ajuda a apoiar o KidOS.</string>
     <string name="app_label">Aplicação</string>
     <string name="website_label">Website</string>
     <string name="qsb_search_provider_app_required">Aplicação necessária</string>
@@ -523,7 +523,7 @@ Transparentes</string>
     <string name="max_folder_columns">Número máximo de colunas na pasta</string>
     <string name="max_folder_rows">Número máximo de linhas na pasta</string>
     <!-- Quickstep settings -->
-    <string name="quickswitch_ignored_warning">Estas definições serão ignoradas, pois o Lawnchair não está definido como o fornecedor de recentes</string>
+    <string name="quickswitch_ignored_warning">Estas definições serão ignoradas, pois o KidOS não está definido como o fornecedor de recentes</string>
     <string name="quickstep_incompatible">Integração do sistema incompatível</string>
     <string name="quickstep_incompatible_description">O seu dispositivo está configurado para ter gestos do sistema (conhecidos como Quickstep) fornecidos por %1$s, mas esta versão de %1$s não é compatível com a versão do seu Android. Para continuar a usar o seu dispositivo, desinstale as atualizações de %1$s ou desative %1$s como fornecedor de gestos do sistema.</string>
     <string name="translucent_background">Fundo translúcido</string>
@@ -596,8 +596,8 @@ Transparentes</string>
     <string name="max_suggestion_result_count_title">Número máximo de sugestões</string>
     <string name="max_web_suggestion_delay">Atraso máximo da sugestão na web</string>
     <!-- Permission warnings -->
-    <string name="warn_contact_permission_content">Para pesquisar contactos, conceda permissões de contactos e telemóvel ao Lawnchair</string>
-    <string name="warn_files_permission_content">Para pesquisar os seus ficheiros, conceda permissões de armazenamento ao Lawnchair</string>
+    <string name="warn_contact_permission_content">Para pesquisar contactos, conceda permissões de contactos e telemóvel ao KidOS</string>
+    <string name="warn_files_permission_content">Para pesquisar os seus ficheiros, conceda permissões de armazenamento ao KidOS</string>
     <string name="grant_requested_permissions">Conceder permissões</string>
     <string name="allapps_web_suggestion_provider_label">Fornecedor de sugestões da web</string>
     <string name="allapps_use_web_suggestion_icon_label">Mostrar ícone do fornecedor de sugestões da web na barra de pesquisa</string>

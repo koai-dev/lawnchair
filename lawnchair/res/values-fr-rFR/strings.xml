@@ -45,7 +45,7 @@
     <string name="download_update">Télécharger la mise à jour</string>
     <string name="install_update">Installer la mise à jour</string>
     <string name="pro_updated">Vous êtes à jour !</string>
-    <string name="managed_by_lawnchair">Gérée par Lawnchair</string>
+    <string name="managed_by_lawnchair">Gérée par KidOS</string>
     <!-- When mentioning settings UI -->
     <string name="smartspace_preferences">Préférences</string>
     <string name="settings_button_text">Paramètres de l\'accueil</string>
@@ -97,7 +97,7 @@
     <string name="folders_filter_duplicates">Afficher seulement les applis uniques</string>
     <string name="my_folder_label">Mon dossier</string>
     <!-- A11y description -->
-    <string name="accessibility_service_description">Pour effectuer certaines actions (telles que verrouiller votre téléphone) en un seul geste, Lawnchair a besoin des droits d\'accessibilité.\n\nMalgré que le privilège est accordé de force à tous les services d\'accessibilité, Lawnchair n\'observe pas les actions de l\'utilisateur et ignore tous les événements envoyés par le système.\n\nAfin de verrouiller votre téléphone ou ouvrir Récents, Lawnchair utilise le service d\'accessibilité performGlobalAction.</string>
+    <string name="accessibility_service_description">Pour effectuer certaines actions (telles que verrouiller votre téléphone) en un seul geste, KidOS a besoin des droits d\'accessibilité.\n\nMalgré que le privilège est accordé de force à tous les services d\'accessibilité, KidOS n\'observe pas les actions de l\'utilisateur et ignore tous les événements envoyés par le système.\n\nAfin de verrouiller votre téléphone ou ouvrir Récents, KidOS utilise le service d\'accessibilité performGlobalAction.</string>
     <string name="x_with_y_count">%1$s (%2$d)</string>
     <string name="x_by_y">%1$d x %2$d</string>
     <string name="x_and_y">%1$s et %2$s</string>
@@ -126,7 +126,7 @@
     <string name="quickstep_description">Bouton Tout effacer, rayon d\'angle</string>
     <string name="about_label">À propos</string>
     <string name="app_info_drop_target_label">Infos sur l\'appli</string>
-    <string name="debug_restart_launcher">Redémarrer Lawnchair</string>
+    <string name="debug_restart_launcher">Redémarrer KidOS</string>
     <string name="experimental_features_label">Fonctionnalités expérimentales</string>
     <!-- Experimental features -->
     <string name="font_picker_label">Personnalisation de la police</string>
@@ -150,7 +150,7 @@
     Notifications
 
     -->
-    <string name="set_default_launcher_tip">Pour accéder aux raccourcis et à plus de fonctionnalités, définissez Lawnchair en tant que lanceur d\'applications par défaut</string>
+    <string name="set_default_launcher_tip">Pour accéder aux raccourcis et à plus de fonctionnalités, définissez KidOS en tant que lanceur d\'applications par défaut</string>
     <string name="notification_dots">Pastilles de notification</string>
     <string name="show_notification_count">Afficher le compteur de notifications</string>
     <string name="notification_dots_color">Couleur des pastilles de notification</string>
@@ -321,7 +321,7 @@
     <string name="event_provider_missing_notification_dots">Pour pouvoir utiliser <xliff:g example="My Provider" id="providerName">%1$s</xliff:g>, activez les pastilles de notification.</string>
     <!-- Toggle button for enabling Smartspace -->
     <string name="smartspace_widget_toggle_label">Afficher sur l\'écran d\'accueil</string>
-    <string name="smartspace_widget_toggle_description">Aperçu peut être ajouté manuellement à l\'écran d\'accueil en plaçant le widget Lawnchair</string>
+    <string name="smartspace_widget_toggle_description">Aperçu peut être ajouté manuellement à l\'écran d\'accueil en plaçant le widget KidOS</string>
     <!-- List of available providers -->
     <string name="smartspace_mode_label">Fournisseur d\'Aperçu</string>
     <string name="smartspace_mode_google">Google</string>
@@ -386,18 +386,18 @@
     <string name="gesture_handler_open_assistant">Ouvrir l\'assistant</string>
     <string name="pick_app_for_gesture">Sélectionnez une appli</string>
     <string name="dt2s_admin_hint_title">Autorisations d\'administration requises</string>
-    <string name="dt2s_admin_hint">Pour mettre en veille votre appareil à l\'aide d\'un double appui, définissez Lawnchair comme appli d\'administration de l\'appareil. Appuyez sur « Ouvrir les paramètres » puis appuyez sur « Activer l\'appli d\'administration de cet appareil. »</string>
+    <string name="dt2s_admin_hint">Pour mettre en veille votre appareil à l\'aide d\'un double appui, définissez KidOS comme appli d\'administration de l\'appareil. Appuyez sur « Ouvrir les paramètres » puis appuyez sur « Activer l\'appli d\'administration de cet appareil. »</string>
     <string name="dt2s_admin_warning">Vous ne pourrez plus mettre en veille votre appareil à l\'aide d\'un double appui.</string>
     <string name="d2ts_recents_a11y_hint_title">Activez le service d\'accessibilité</string>
-    <string name="dt2s_a11y_hint">Pour mettre en veille votre appareil avec un double appui, activez le service d\'accessibilité Lawnchair. Appuyez sur « Ouvrir les paramètres », sélectionnez « Lawnchair » et activez « Utiliser Lawnchair ».\n\nLawnchair utilise la méthode d\'Accessibility `performGlobalAction`. Il s\'agit d\'une autorisation sensible qui permet de suivre le comportement des autres applis, mais Lawnchair n\'est pas configuré de manière à utiliser ces fonctionnalités et ne reçoit donc aucun événement.</string>
+    <string name="dt2s_a11y_hint">Pour mettre en veille votre appareil avec un double appui, activez le service d\'accessibilité KidOS. Appuyez sur « Ouvrir les paramètres », sélectionnez « KidOS » et activez « Utiliser KidOS ».\n\nKidOS utilise la méthode d\'Accessibility `performGlobalAction`. Il s\'agit d\'une autorisation sensible qui permet de suivre le comportement des autres applis, mais KidOS n\'est pas configuré de manière à utiliser ces fonctionnalités et ne reçoit donc aucun événement.</string>
     <string name="dt2s_recents_warning_open_settings">Ouvrir les paramètres</string>
-    <string name="recents_a11y_hint">Pour utiliser Ouvrir Récents, activez le service d\'accessibilité Lawnchair. Appuyez sur « Ouvrir les paramètres », sélectionnez « Lawnchair » et activez « Utiliser Lawnchair ».\n\nLawnchair utilise la méthode d\'Accessibility `performGlobalAction`. Il s\'agit d\'une autorisation sensible qui permet de suivre le comportement des autres applis, mais Lawnchair n\'est pas configuré de manière à utiliser ces fonctionnalités et ne reçoit donc aucun événement.</string>
+    <string name="recents_a11y_hint">Pour utiliser Ouvrir Récents, activez le service d\'accessibilité KidOS. Appuyez sur « Ouvrir les paramètres », sélectionnez « KidOS » et activez « Utiliser KidOS ».\n\nKidOS utilise la méthode d\'Accessibility `performGlobalAction`. Il s\'agit d\'une autorisation sensible qui permet de suivre le comportement des autres applis, mais KidOS n\'est pas configuré de manière à utiliser ces fonctionnalités et ne reçoit donc aucun événement.</string>
     <!--
 
     Bug reporting
 
     -->
-    <string name="lawnchair_bug_report">Signalement de bug Lawnchair</string>
+    <string name="lawnchair_bug_report">Signalement de bug KidOS</string>
     <string name="crash_report_notif_title">%1$s a planté</string>
     <string name="action_upload_crash_report">Envoyer le journal de plantage</string>
     <string name="action_upload_error">Échec de l\'envoi</string>
@@ -489,7 +489,7 @@
     <string name="page_indicator_height">Hauteur de l\'indicateur de page</string>
     <!-- Search providers -->
     <string name="search_provider_app_search">Recherche d\'applis</string>
-    <string name="search_provider_sponsored_description">%1$s et Lawnchair ont signé un accord de partage des revenus.\n\nEn effectuant vos recherches avec %1$s, vous soutenez Lawnchair.</string>
+    <string name="search_provider_sponsored_description">%1$s et KidOS ont signé un accord de partage des revenus.\n\nEn effectuant vos recherches avec %1$s, vous soutenez KidOS.</string>
     <string name="app_label">Application</string>
     <string name="website_label">Site Web</string>
     <string name="qsb_search_provider_app_required">Appli requise</string>
@@ -522,7 +522,7 @@
     <string name="max_folder_columns">Colonnes max. dans les dossiers</string>
     <string name="max_folder_rows">Lignes max. dans les dossiers</string>
     <!-- Quickstep settings -->
-    <string name="quickswitch_ignored_warning">Ces paramètres seront ignorés car Lawnchair n\'est pas défini comme fournisseur de Récents</string>
+    <string name="quickswitch_ignored_warning">Ces paramètres seront ignorés car KidOS n\'est pas défini comme fournisseur de Récents</string>
     <string name="quickstep_incompatible">Intégration système incompatible</string>
     <string name="quickstep_incompatible_description">Votre appareil est configuré pour que la navigation par gestes (appelée Quickstep) soit fournie par %1$s, mais la version installée n\'est pas compatible avec votre version d\'Android. Pour continuer à utiliser votre appareil, désinstallez les mises à jour de %1$s ou désactivez-le en tant que fournisseur système de navigation par gestes.</string>
     <string name="translucent_background">Arrière-plan translucide</string>
@@ -595,8 +595,8 @@
     <string name="max_suggestion_result_count_title">Nombre maximal de suggestions</string>
     <string name="max_web_suggestion_delay">Délai maximal des suggestions Web</string>
     <!-- Permission warnings -->
-    <string name="warn_contact_permission_content">Pour rechercher des contacts, accordez à Lawnchair les autorisations Contacts et Téléphone</string>
-    <string name="warn_files_permission_content">Pour rechercher des fichiers, autorisez Lawnchair à accéder au stockage</string>
+    <string name="warn_contact_permission_content">Pour rechercher des contacts, accordez à KidOS les autorisations Contacts et Téléphone</string>
+    <string name="warn_files_permission_content">Pour rechercher des fichiers, autorisez KidOS à accéder au stockage</string>
     <string name="grant_requested_permissions">Accorder les autorisations</string>
     <string name="allapps_web_suggestion_provider_label">Fournisseur de suggestions Web</string>
     <string name="allapps_use_web_suggestion_icon_label">Afficher l\'icône du fournisseur de suggestions Web dans la barre de recherche</string>

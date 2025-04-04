@@ -45,7 +45,7 @@
     <string name="download_update">업데이트 다운로드</string>
     <string name="install_update">업데이트 설치</string>
     <string name="pro_updated">최신 버전입니다!</string>
-    <string name="managed_by_lawnchair">Lawnchair에서 관리</string>
+    <string name="managed_by_lawnchair">KidOS에서 관리</string>
     <!-- When mentioning settings UI -->
     <string name="smartspace_preferences">설정</string>
     <string name="settings_button_text">홈 화면 설정</string>
@@ -53,7 +53,7 @@
     <string name="title_change_settings">설정 변경</string>
     <!--
 
-    General "words" used throughout Lawnchair
+    General "words" used throughout KidOS
 
     -->
     <string name="others_category_label">기타</string>
@@ -97,7 +97,7 @@
     <string name="folders_filter_duplicates">중복 앱 숨기기</string>
     <string name="my_folder_label">내 폴더</string>
     <!-- A11y description -->
-    <string name="accessibility_service_description">Lawnchair에서 제스처로 기기를 잠그거나 최근 앱 화면을 열기 위해서는 접근성 권한이 필요합니다.\n\n모든 접근성 서비스에는 대화 상자에 나오는 권한이 필요합니다. Lawnchair는 사용자의 동작을 전혀 감시하지 않으며, 시스템에서 보내는 이벤트를 모두 무시합니다.\n\nLawnchair는 기기를 잠그거나 최근 앱 화면을 열기 위해 접근성 서비스의 performGlobalAction 메소드를 사용합니다.</string>
+    <string name="accessibility_service_description">KidOS에서 제스처로 기기를 잠그거나 최근 앱 화면을 열기 위해서는 접근성 권한이 필요합니다.\n\n모든 접근성 서비스에는 대화 상자에 나오는 권한이 필요합니다. KidOS는 사용자의 동작을 전혀 감시하지 않으며, 시스템에서 보내는 이벤트를 모두 무시합니다.\n\nKidOS는 기기를 잠그거나 최근 앱 화면을 열기 위해 접근성 서비스의 performGlobalAction 메소드를 사용합니다.</string>
     <string name="x_with_y_count">%1$s (%2$d)</string>
     <string name="x_by_y">%1$d x %2$d</string>
     <string name="x_and_y">%1$s 및 %2$s</string>
@@ -126,7 +126,7 @@
     <string name="quickstep_description">모두 닫기 버튼, 가장자리 둥글기</string>
     <string name="about_label">더 보기</string>
     <string name="app_info_drop_target_label">앱 정보</string>
-    <string name="debug_restart_launcher">Lawnchair 재시작</string>
+    <string name="debug_restart_launcher">KidOS 재시작</string>
     <string name="experimental_features_label">실험적 기능</string>
     <!-- Experimental features -->
     <string name="font_picker_label">글꼴 사용자 정의</string>
@@ -150,7 +150,7 @@
     Notifications
 
     -->
-    <string name="set_default_launcher_tip">바로 가기 및 추가 기능에 액세스하려면 Lawnchair를 기본 홈 앱으로 설정하세요.</string>
+    <string name="set_default_launcher_tip">바로 가기 및 추가 기능에 액세스하려면 KidOS를 기본 홈 앱으로 설정하세요.</string>
     <string name="notification_dots">알림 배지</string>
     <string name="show_notification_count">알림 개수 표시</string>
     <string name="notification_dots_color">알림 배지 색상</string>
@@ -321,7 +321,7 @@
     <string name="event_provider_missing_notification_dots"><xliff:g example="My Provider" id="providerName">%1$s</xliff:g>를 사용하려면 알림 점을 활성화하세요.</string>
     <!-- Toggle button for enabling Smartspace -->
     <string name="smartspace_widget_toggle_label">홈 화면에 표시</string>
-    <string name="smartspace_widget_toggle_description">한눈에 보기는 Lawnchair 위젯을 배치하여 수동으로 홈 화면에 추가할 수 있습니다</string>
+    <string name="smartspace_widget_toggle_description">한눈에 보기는 KidOS 위젯을 배치하여 수동으로 홈 화면에 추가할 수 있습니다</string>
     <!-- List of available providers -->
     <string name="smartspace_mode_label">한 눈에 보기 제공자</string>
     <string name="smartspace_mode_google">Google</string>
@@ -386,18 +386,18 @@
     <string name="gesture_handler_open_assistant">어시스턴트 열기</string>
     <string name="pick_app_for_gesture">앱 선택</string>
     <string name="dt2s_admin_hint_title">관리자 권한이 필요합니다</string>
-    <string name="dt2s_admin_hint">두 번 눌러 화면 끄기 기능을 사용하려면, Lawnchair 앱을 기기 관리자 앱으로 할당 받아야 합니다. \"설정 열기\"를 누른 후, \"이 기기 관리자 앱 활성화\"를 누르세요.</string>
+    <string name="dt2s_admin_hint">두 번 눌러 화면 끄기 기능을 사용하려면, KidOS 앱을 기기 관리자 앱으로 할당 받아야 합니다. \"설정 열기\"를 누른 후, \"이 기기 관리자 앱 활성화\"를 누르세요.</string>
     <string name="dt2s_admin_warning">두 번 눌러 화면 끄기 기능이 비활성화 되었습니다.</string>
     <string name="d2ts_recents_a11y_hint_title">접근성 서비스가 활성화되어야합니다</string>
-    <string name="dt2s_a11y_hint">두 번 눌러 화면 끄기 기능을 사용하려면 Lawnchair 접근성 서비스를 사용해야 합니다. \"설정 열기\"를 눌러 나오는 화면에서 \"Lawnchair\"를 누른 뒤, \"Lawnchair 사용\"을 켜세요.\n\nLawnchair는 기기를 잠그거나 최근 앱 화면을 열기 위해 접근성 서비스의 performGlobalAction 메소드를 사용합니다. 이 메소드는 다른 앱을 감시할 수 있는 민감한 권한이지만, Lawnchair는 앱 감시 기능이 없으며 시스템에서 보내는 이벤트를 모두 무시합니다.</string>
+    <string name="dt2s_a11y_hint">두 번 눌러 화면 끄기 기능을 사용하려면 KidOS 접근성 서비스를 사용해야 합니다. \"설정 열기\"를 눌러 나오는 화면에서 \"KidOS\"를 누른 뒤, \"KidOS 사용\"을 켜세요.\n\nKidOS는 기기를 잠그거나 최근 앱 화면을 열기 위해 접근성 서비스의 performGlobalAction 메소드를 사용합니다. 이 메소드는 다른 앱을 감시할 수 있는 민감한 권한이지만, KidOS는 앱 감시 기능이 없으며 시스템에서 보내는 이벤트를 모두 무시합니다.</string>
     <string name="dt2s_recents_warning_open_settings">설정 열기</string>
-    <string name="recents_a11y_hint">최근 앱 화면 열기 기능을 사용하려면 Lawnchair 접근성 서비스를 사용해야 합니다. \"설정 열기\"를 눌러 나오는 화면에서 \"Lawnchair\"를 누른 뒤, \"Lawnchair 사용\"을 켜세요.\n\nLawnchair는 기기를 잠그거나 최근 앱 화면을 열기 위해 접근성 서비스의 performGlobalAction 메소드를 사용합니다. 이 메소드는 다른 앱을 감시할 수 있는 민감한 권한이지만, Lawnchair는 앱 감시 기능이 없으며 시스템에서 보내는 이벤트를 모두 무시합니다.</string>
+    <string name="recents_a11y_hint">최근 앱 화면 열기 기능을 사용하려면 KidOS 접근성 서비스를 사용해야 합니다. \"설정 열기\"를 눌러 나오는 화면에서 \"KidOS\"를 누른 뒤, \"KidOS 사용\"을 켜세요.\n\nKidOS는 기기를 잠그거나 최근 앱 화면을 열기 위해 접근성 서비스의 performGlobalAction 메소드를 사용합니다. 이 메소드는 다른 앱을 감시할 수 있는 민감한 권한이지만, KidOS는 앱 감시 기능이 없으며 시스템에서 보내는 이벤트를 모두 무시합니다.</string>
     <!--
 
     Bug reporting
 
     -->
-    <string name="lawnchair_bug_report">Lawnchair 버그 신고</string>
+    <string name="lawnchair_bug_report">KidOS 버그 신고</string>
     <string name="crash_report_notif_title">%1$s가 종료되었습니다</string>
     <string name="action_upload_crash_report">크래시 로그 업로드</string>
     <string name="action_upload_error">업로드 실패</string>
@@ -489,7 +489,7 @@
     <string name="page_indicator_height">페이지 표시기 높이</string>
     <!-- Search providers -->
     <string name="search_provider_app_search">앱 검색</string>
-    <string name="search_provider_sponsored_description">%1$s과 Lawnchair는 수익 공유 계약을 맺었습니다.\n\n%1$s로 검색하면 Lawnchair 지원에 도움이 됩니다.</string>
+    <string name="search_provider_sponsored_description">%1$s과 KidOS는 수익 공유 계약을 맺었습니다.\n\n%1$s로 검색하면 KidOS 지원에 도움이 됩니다.</string>
     <string name="app_label">앱</string>
     <string name="website_label">웹사이트</string>
     <string name="qsb_search_provider_app_required">앱 필요</string>
@@ -521,7 +521,7 @@
     <string name="max_folder_columns">최대 폴더 열</string>
     <string name="max_folder_rows">최대 폴더 행</string>
     <!-- Quickstep settings -->
-    <string name="quickswitch_ignored_warning">Lawnchair가 최근 앱 제공자로 설정되지 않았으므로 아래 설정은 무시됩니다</string>
+    <string name="quickswitch_ignored_warning">KidOS가 최근 앱 제공자로 설정되지 않았으므로 아래 설정은 무시됩니다</string>
     <string name="quickstep_incompatible">호환되지 않는 시스템 통합</string>
     <string name="quickstep_incompatible_description">기기가 %1$s에서 제공하는 시스템 제스처(Quickstep으로 알려져 있음)가 설정되어 있지만 %1$s의 이 버전은 Android 버전과 호환되지 않습니다. 장치를 계속 사용하려면 %1$s 업데이트를 제거하거나 시스템 제스처 공급자로 %1$s을(를) 비활성화하십시오.</string>
     <string name="translucent_background">반투명 배경</string>
@@ -594,8 +594,8 @@
     <string name="max_suggestion_result_count_title">최대 제안 항목 수</string>
     <string name="max_web_suggestion_delay">최대 웹 제안</string>
     <!-- Permission warnings -->
-    <string name="warn_contact_permission_content">연락처를 검색하려면 Lawnchair에 연락처 및 전화 권한을 부여하세요</string>
-    <string name="warn_files_permission_content">파일을 검색하려면 Lawnchair에 저장소 권한을 부여하세요</string>
+    <string name="warn_contact_permission_content">연락처를 검색하려면 KidOS에 연락처 및 전화 권한을 부여하세요</string>
+    <string name="warn_files_permission_content">파일을 검색하려면 KidOS에 저장소 권한을 부여하세요</string>
     <string name="grant_requested_permissions">권한 부여</string>
     <string name="allapps_web_suggestion_provider_label">웹 제안 제공자</string>
     <string name="allapps_use_web_suggestion_icon_label">검색 표시줄에 웹 제안 제공자 아이콘 표시</string>
