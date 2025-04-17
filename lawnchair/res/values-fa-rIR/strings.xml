@@ -117,7 +117,7 @@
     <string name="app_drawer_label">کشوی برنامه‌ها</string>
     <string name="app_drawer_description">برنامه‌های مخفی، تعداد ستون‌ها، آیکون‌ها</string>
     <string name="drawer_search_label">جستجو کشو</string>
-    <string name="drawer_search_description">پیشنهادات وب، جستجوی جهانی</string>
+    <string name="drawer_search_description">پیشنهادها وب، جستجوی جهانی</string>
     <string name="folders_label">پوشه‌ها</string>
     <string name="folders_description">تعداد سطرها و ستون‌ها</string>
     <string name="gestures_label">حرکات</string>
@@ -342,7 +342,7 @@
     <string name="development">توسعه</string>
     <string name="quickswitch_maintenance">نگهداری QuickSwitch</string>
     <string name="devops">توسعه دهنده</string>
-    <string name="support_and_pr">پشتیبانی و روابط عمومی</string>
+    <string name="support_and_pr">پشتیبانی &amp; روابط عمومی</string>
     <string name="acknowledgements">سپاسگزاریها</string>
     <string name="translate">ترجمه</string>
     <string name="donate">کمک‌کردن</string>
